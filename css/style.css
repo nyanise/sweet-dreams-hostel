@@ -94,7 +94,7 @@ margin-left: 63px;
 .visitor{
     border: 1px solid black;
     height:6%;
-   width: 14%;
+   width: 8%;
     color: black; 
     text-decoration: none; 
     font-size: 10px ;
@@ -176,11 +176,11 @@ font-family: 'Poiret One', cursive;
     font-size:0.6em;
     height: 100%;
     width: 33%;
-     min-width: 33%;    
+   
 }
 .flex2{
     display:flex;
-    width: 100%;  height: 400px;  
+    width: 100%;  height: 450px;  
     margin-left: 0px;
     overflow: hidden;
     background: #f6f6f7;
@@ -199,6 +199,7 @@ font-family: 'Poiret One', cursive;
 #pButton{
     margin-bottom:10px;
     padding: 5px;
+    min-width: 33%;    
 }
 
 
@@ -295,7 +296,7 @@ footer input[type="submit"] {
 }
 .Contact{
 
-    margin-top: 18%;
+    margin-top: 16%;
     width: 100%;  height:450px;
     background-position: center;
     background-repeat: no-repeat;   
@@ -412,3 +413,145 @@ footer input[type="submit"] {
     padding-left: 55px;
     font-size: 14px;   
 }
+/*-- contact --*/
+#room{
+    height: 100%;
+    width: 100%;
+}section h1{
+    display: flex;
+    color: gray;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+}
+.class1{
+    margin-top: 10%;
+    display: flex;
+  width: 100%;  height:100%;
+}
+.sectionRoom{
+    margin-top: 16%;
+    display:flex;
+    width: 100%;  height: 450px;  
+    margin-left: 0px;
+    overflow: hidden;
+    background: #f6f6f7;
+    column-count:2;    
+}
+.imgR{
+    margin-right: 40%;
+    height: 100%;
+    width:60%;
+    overflow: hidden;
+       
+}
+
+#pRoom{
+ 
+    font-size:0.8em;
+    height: 100%;
+    width:60%;
+    background: white;
+   
+}
+
+#pButton{
+    margin: 10px;
+    margin-bottom:10px;
+    margin-top: 10px;
+    min-width: 33%;    
+}
+.button2{
+    
+    border: 2px solid black;
+    border-radius:4px;
+    background: #f6f6f7;
+    text-align: center;
+    margin:0 auto;
+    font-size: 20px;
+    padding:10px 30px;
+    font-family: 'Poiret One', cursive;
+}
+.sectionRoom2{
+    display:flex;
+    width: 100%;  height: 450px;  
+    margin-left: 0px;
+    overflow: hidden;
+    background: #f6f6f7;
+    column-count:2; 
+}
+footer.roomsFooter{
+    text-align: left;
+    background:rgb(107, 100, 86);
+    padding:10px;
+    font-family: 'Poiret One', cursive;
+}
+.roomsFooter input{
+    display: flex;
+    margin:10px;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 16px; 
+   
+}
+footer h3{
+    font-family: 'Poiret One', cursive;
+  font-size: 25px;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+footer input[type="submit"] {
+    background:rgb(107, 100, 86);
+    border:2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+    padding-left: 55px;
+    font-size: 14px;   
+}
+
+
+
+
+@media only screen and (max-width: 1108px) {
+
+    .wrapper {
+      width: 65%;
+    }
+  
+  
+  .h{
+    column-count: 3;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  @media only screen and (max-width: 800px) {
+  
+    #navbar nav a {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media only screen and (max-width: 750px) {
+  
+    
+  
+    .h{
+        column-count: 2;
+        text-align: center;
+        padding-top: 30px;
+      }
+      #navbar nav a {
+        display: none;
+      }
+    
+      #navbar nav a {
+        display: block;
+        float: right;
+        font-size: 1.5em;
+        padding: 10px 20px;
+        width: auto;
+      }
+    }
