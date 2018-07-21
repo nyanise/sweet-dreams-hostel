@@ -6,88 +6,157 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sweet Dreams Hotsel</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Farsan|Fredoka+One|Jura|Nanum+Myeongjo|Open+Sans+Condensed:300|Poiret+One" rel="stylesheet">
+</head >
 <body>
-    <header>
-        
-<h1>SWEET <br>DREAMS <br>HOSTEL</h1>
-<div>
+     
+    <div class="wrapper">
 
+    <header class="home">
+<div>
+<h1>SWEET <br>DREAMS <br>HOSTEL</h1>
+</div>
+<div  id="navbar">
     <nav>
-            <a href="Home.html">About Us</a><a href="new-properties.html">FAQ</a><a href="Contact.html">Contact Us</a><a href="Rooms.html">Book A Room</a>
+            <a href="Home.html">About Us</a>
+            <a href="new-properties.html">FAQ</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="Rooms.html">Book A Room</a>
     </nav>
 </div>
 
-    </header>
-    <section class="col-2 first shadow">
-            <!-- Contact Form -->
-            <form action="#" method="post">
-              <label for="check-in">Check-in</label>
-              <input type="date" id="check-in" name="check-in" placeholder="your name" required><br>
-              <label for="check-out">Check-out</label>
-              <input type="date" id="check-out" placeholder="check-out" required><br>
-              <input type="submit" value="continu">
+    <section id="form">
+            <!--Form -->
+            <form  class="form1" action="#" method="post">
+                <div class="flex">
+                    <label  class="col-1 lable" for="visitors">Visitors</label>
+                    <input class="visitor left " class="col-2 "type="text" value=" 2" >
+                </div>
+                <div class="flex">
+              <label class="col-1 lable" for="check-in">Check-in</label>
+              <input class="col-2" type="date" id="input" name="check-in" placeholder="your name" required>
+            </div>
+            <div class="flex">
+              <label  class="col-1 lable" for="check-out">Check-out</label>
+              <input class="col-2" type="date" id="input" placeholder="check-out" required>
+            </div>
+            <div class="submit">
+              <input id="continue" type="submit" value="continue">
+            </div>
             </form>
           </section>
-<section>
-    <h2>OUR SERVICES</h2>
-    <div>
-      <div>
-        <p>Hot And Cold Water</p>
-      </div>
-       <div>
-           <p>Private Lockers in Rooms</p>
-        </div>
+       
+    </header>
 
-        <div>
-            <p>Wifi Access in All Rooms</p>
-        </div>
+    <section class="service">
+            <h2>OUR SERVICES</h2>
+        <div class="h">
+                
+            <div>
+                <i class="fas fa-shower"></i>
+                <p>Hot And Cold Water</p> 
+            </div>
+            <div>
+                <i class="fas fa-camera"></i>            
+                <p>Discounts On daily Tours</p>
+            </div>
 
-        <div>               
-            <p>Discounts On daily Tours</p>
-        </div>
+            <div>
+                <i class="fas fa-key"></i>
+                <p>Private Lockers in Rooms</p> 
+            </div>
+            <div>
+                <i class="far fa-credit-card"></i>
+                <p>We Accept All Major Credit Cards</p>
+            </div>
 
-        <div>
-           <p>We Accept All Major Credit Cards</p>
-        </div>
-        <div>
-           <p>Free Brekfast</p>
-        </div>
-    </div>                     
+            <div>
+                <i class="fas fa-wifi"></i>
+                <p>Wifi Access in All Rooms</p>
+            </div>
+            <div>
+                <i class="fas fa-utensils"></i>
+                <p>Free Brekfast</p>
+            </div>
 
-</section>
-<section>
-<img src="images/sylwia-pietruszka-218324-unsplash.jpg" alt="guilherme-stecanella" >
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Numquam, enim amet. Recusandae ut vitae, <br> dicta quasi deserunt iure dignissimos aspernatur inventore deleniti, <br> tempora debitis consequatur. Doloribus ut nulla ad quisquam?</p>
+        </div>
+    </section>
+    
+
+<section class="flex2">
+<div id="leftImage" class="col-2">
+<img  id="brakefast" src="images/sylwia-pietruszka-218324-unsplash.jpg" alt="guilherme-stecanella" >
+</div>
+
+<div id="rightText" class="col-1">
+    <h2>OUR ROOMS <br> ARE BIG AND<br>BEAUTIFUL</h2>
+<p  id="pButton"> At vero eos et accusamus ct iusto odio
+        dignissimos ducimus qui blanditiis
+        praesentium voluptatum deleniti atque
+        corrupto quos dolores et quas molestias
+        excepturi sint occaecati cupiditate non
+        provident, similique sunt in culpa qui officia
+        deserunt mollitia anim, id est laborum et
+        dolorum fuga. Et harum quidem rerum facilis
+        est et expedita distinctio. Nam libero
+        tempore, cum soluta nobis est eligendi
+        optio cumque nihil impedit quo minus id
+        quod maxime placeat facere possimus,
+        Omnis voluptas assumenda est, omnis dolor
+        repellendus. Temporibus autem quibusdam
+        et aut officiis debitis aut rerum
+        necessitatibus saepe eveniet ut et
+        voluptates repudiandae sint et molestiac
+        non recusandae. Itaque carum rerum hic
+        tenetur a sapiente delectus, ut aut
+        reiciendis voluptatibus maiores alias
+        consequatur aut perferendis doloribus
+        asperiores repellat.</p>
+<button>See Our Rooms</button>
+</div>
+
 <div>
-    See Our Rooms
 </div>
 </section>
 
-<section>
-    <p>WHAT OUR GUESTS SAY...</p>
-   <div>
-        <img src="images/guilherme-stecanella-587579-unsplash.jpg" alt="sylwia-pietruszka" >
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Numquam, enim amet. Recusandae ut vitae, <br> dicta quasi deserunt iure dignissimos aspernatur inventore deleniti, <br> tempora debitis consequatur. Doloribus ut nulla ad quisquam?</p>
-   </div>
-   <div>
-        <img src="images/brooke-cagle-274465-unsplash.jpg" alt="brooke-cagle" >
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Numquam, enim amet. Recusandae ut vitae, <br> dicta quasi deserunt iure dignissimos aspernatur inventore deleniti, <br> tempora debitis consequatur. Doloribus ut nulla ad quisquam?</p>
-   </div>  
+
+<section class="guestsSection">
+    <h2>WHAT OUR GUESTS SAY...</h2>
+<div class="guests">
+   <div class="col-1 special">
+        <img id="imgGuests" src="images/guilherme-stecanella-587579-unsplash.jpg" alt="sylwia-pietruszka" >
+        <p > Doloribus ut nulla ad quisquam?</p>
+        <div>
+        <i id="star" class="fas fa-star"></i><i  id="star" class="fas fa-star"></i><i id="star" class="fas fa-star"></i><i  id="star" class="fas fa-star"></i><i id="star" class="fas fa-star"></i>
+    </div>
+    </div>
+  <div class="col-2 special">
+        <img id="imgGuests" src="images/brooke-cagle-274465-unsplash.jpg" alt="brooke-cagle" >
+        <p>. Doloribus ut nulla ad quisquam?</p>
+         <div><i  id="star" class="fas fa-star"></i><i  id="star" class="fas fa-star"></i><i id="star" class="fas fa-star"></i><i  id="star" class="fas fa-star"></i><i id="star" class="fas fa-star"></i>
+  
+         </div> 
+              </div>
+</div>
 </section>
 
 
 
 
 
-<footer>STAY IN TOUCH
+<footer class="home" >
+     <h3>STAY IN TOUCH </h3> 
         <form action="#" method="post">
                 <input type="text" id="name" name="name" placeholder="Your Name" required>
                 <input type="email" id="email" name="email" placeholder="Your Email" required>
                
-                <input type="submit" value="submit">
+                <input type="submit" value="Sing Me UP!">
               </form>
-</footer>
+            </footer>
+
+        </div>
 </body>
 
 </html>
