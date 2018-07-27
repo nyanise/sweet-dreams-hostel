@@ -2,43 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #615c54;
+}
+body{
+    width: 100%;
+    max-width: 100%;
+}
+h1,h2,h3,h3 { text-align: center; word-spacing: 0.4em;
+     color: #88837b; font-weight: lighter;
+     font-family: 'Poiret One', cursive;}
+img,iframe{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 #navbar {
     width: 60%;
-    margin-left: 22%;
-    margin-top: 20px;
+    margin-left: 13%;
+    margin-top: 50px;
     position: absolute;
     top: 0;
+   
   }
   
  
   #navbar nav a {
-    
     display: inline-block;
-    width: 17%;
+    width: 22%;
     margin: 0;
     padding:22px 0;
     color: black;
     text-align: center;
     text-decoration: none;
-    font: 1em "Trebuchet MS", Arial, sans-serif;
+    font: 0.9em "Trebuchet MS", Arial, sans-serif;
+    padding: 5px;
+    transition: font-size color;
+
+
   }
   #navbar nav a:hover {
-  color:white;
-   border: 2px solid black;
-   background: black;
-   opacity: 0.4;
-   border-radius: 4px;
-   padding: 5px;
-   padding-top: 5px;
+   font-size:1.5em;
+   color: #615c54;
+
   }
  
   .home h1{
-      text-align:left;
-    padding-top :35%;
-    padding-left: 30px;
-    color:black;
-    font-size:50px;
+    text-align:left;
+    padding-top :230px;;
+    padding-left: 50px;
+    font-size:60px;
     text-decoration: none;
     font-family: 'Poiret One', cursive;
   }
@@ -46,9 +58,9 @@
 
 
 .wrapper{
-    width:65%; height: 100%;
+    width:65%; 
     margin: 0 auto;
-    min-width: 55%;
+    
     
 }
 
@@ -56,20 +68,21 @@ header.home{
     background-image: url(../images/6.jpg);
     width: 100%;  height:450px;
     background-position: center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;  
+    background-size: 100% 100%; 
 }
 
 #form{
-    width: 20%;
-    height: 40%;
+    width: 25%;
+    height: 46%;
     position: absolute;
     background-color:white;
     left:56%;
-    top: 45%;
+    top: 44%;
     border-radius:4px;
-    border-width: 1px;
+    border-width: 2px;
     border-style:none;
-    border-color: lightslategray;
+  
    border-bottom: 1px solid gray; 
 }   
 
@@ -85,34 +98,40 @@ margin-left: 63px;
 }
 .col-1{
     width: 33%;
-    margin:8px;
+    
 }
 .col-2{
     width: 66%;
-    float: right;
+   
 }
+.col-3{
+    width: 100%;
+    
+}
+
 .visitor{
-    border: 1px solid black;
-    height:6%;
-   width: 8%;
-    color: black; 
+    border: 1px solid gray;
+   width: 13%;
+    color:gray; 
     text-decoration: none; 
-    font-size: 10px ;
+    font-size: 15px ;
+    padding-left: 6px;
     border-radius: 2px; 
-    padding: 2px;
+
     text-align: center;  
 }
 
 #continue{
     font-size:13px;
-    margin:35px;
+    margin:40px;
+    margin-left: 54px;
     padding: 2px;
-    height: 34px;
+    height: 40px;
     width: 62%;
     text-align: center;
     background: white;
     border-radius: 3px;
-    border: 1px solid black;
+    border: 2px solid gray;
 }
 .flex{
     display:flex;
@@ -120,24 +139,20 @@ margin-left: 63px;
 font-size: 100%; 
 }
 #input{
-    border: 1px solid black;
+    border: 1px solid gray;
     width:41%;
-    height: 17px;
+    height: 22px;
     margin: 6px; 
-    color: black;
+    color: gray;
     font-size: 8px ;
     text-decoration: none;
     border-radius: 2px;  
 }
-   
-h2 {text-align: center;
-    font-family: 'Poiret One', cursive;
-}
+
 .service{
 width: 100%;  height: 400px;
 background-color: #f6f6f7;
-
-padding-top: 50px;
+padding-top: 70px;
 }
 .h{
   column-count: 3;
@@ -157,26 +172,30 @@ font-size: 0.7em;
 }
 
 h2{
-color:black;
+
 font-size:30px;
 text-decoration: none;
-font-family: 'Poiret One', cursive;
+
 }
 
 
 #leftImage img{
-    height: 88%;
-    width: 100%;
+   
     overflow: hidden;
     margin-top: 10px;   
 }
 
 #rightText{
-    margin: 0 20px;
-    font-size:0.6em;
-    height: 100%;
-    width: 33%;
+    font-weight: lighter;
+   margin-left: 20px;
+    font-size:0.7em; 
+    text-align: left;
    
+}
+#b { text-align: center; }
+
+#rightText h2{
+    text-align: left;
 }
 .flex2{
     display:flex;
@@ -184,54 +203,80 @@ font-family: 'Poiret One', cursive;
     margin-left: 0px;
     overflow: hidden;
     background: #f6f6f7;
-    column-count:2;    
+    column-count:2;  
+      
 }
- div button{
+ button{
+    overflow: visible;
+  
     border: 1px solid black;
     border-radius:4px;
     background: #f6f6f7;
     text-align: center;
-    margin:0 auto;
     font-size: 10px;
-    padding:6px 30px;
+    padding:10px 40px;
     font-family: 'Poiret One', cursive;
+  
 }
 #pButton{
     margin-bottom:10px;
     padding: 5px;
-    min-width: 33%;    
+
+     padding:0 40px 0 0;
 }
 
 
 .guests{
     display: flex;
     height:350px;
-    margin-top: 30px;   
+    word-spacing: 0.4em;
+    margin-top: 10px;
+    align-items: center;
 }
 .special{
-    border: 2px solid black;
-    border-radius: 6px;
-    width: 35%;
+
+    border: 2px solid rgb(107, 100, 86);
+    border-radius: 4px;
+    width: 40%;
     text-align: center;
-    padding:0 5px;
-    margin:30px;
-    
+    margin:0 auto;
+    height: 100% ;
     background:white;  
 }
 .guestsSection{
+   
     background: #f6f6f7;
-    min-width: 100%;
+    max-width: 100%;
+    width: 100%;  
+    height: 100%;
+    padding: 30px 0;
 
 }
+.h2 h2{
+margin-top: 20px;
+font-size: 35px;
+}
+
 #imgGuests{
-    width:70%;
+    overflow: hidden;
+    width:80%;
     height: 50%;
-    margin:10px;
+margin:10px 30px 30px 30px;
+    
+}
+.special h3{
+    font-size: 14px;
+    color:black;
+
+}
+.special h2{
+   
+    font-size: 17px;
 }
 
 #star{
-    padding-top: 44px;
-    margin: 10px;
+   
+    padding: 10px;
     color:rgb(107, 100, 86);
 }
 footer.home{
@@ -240,18 +285,18 @@ footer.home{
     padding:10px;
     font-family: 'Poiret One', cursive;
 }
-.home input{
+footer.home input{
+    border: 2px solid rgb(107, 100, 86); 
     display: flex;
     margin:10px;
     border-radius: 5px;
-    width: 40%;
     font-size: 16px;
     width: 35%;   
 }
 footer h3{
+    text-align: left;
     font-family: 'Poiret One', cursive;
   font-size: 25px;
-    margin: 15px;
     text-decoration: none;
     color: white;
 }
@@ -260,8 +305,7 @@ footer input[type="submit"] {
     border:2px solid white;
     border-radius: 5px;
     color: white;
-    padding: 4px;
-    padding-left: 55px;
+    text-align: center;
     font-size: 14px;   
 }
 /*-- home --*/
@@ -269,25 +313,28 @@ footer input[type="submit"] {
 #h1Contact{
  color: gray;
  font-family: 'Poiret One', cursive;
- font-size:30px;
+ font-size:25px;
+ text-align: left;
  text-decoration: none;
  position: absolute;
  top: 0;
  margin-bottom:100px;
 
 }
+
 #contactUs{
   
    padding: 10px;
-   height: 15%;
+   height: 16%;
    width: 30%;
+   padding-top: 22px;
    text-align: center;
    font-family: 'Poiret One', cursive;
    font-size: 40px;
    border: 1px solid white;
    position: absolute;
-   top: 50%;
-   opacity: 0.5;
+   top: 40%;
+   opacity: 0.7;
    background: white;
     color:black;
 }
@@ -299,11 +346,9 @@ footer input[type="submit"] {
     margin-top: 16%;
     width: 100%;  height:450px;
     background-position: center;
-    background-repeat: no-repeat;   
+
 }
-.Contact img{
-    height: 100%; width: 100%;
-}
+
 .section2{
     width: 100%;  height: 450px;
     background-color: #f6f6f7; 
@@ -311,25 +356,34 @@ footer input[type="submit"] {
 }
 .mapDiv{
 display: flex;
- 
-}
 
+}
+.i{
+    display: flex;
+    margin:  25px;
+}
 .address{
+    display: flex;
+    flex-direction:column;
     color: black;
-    margin: 50px;
+    margin:50px 20px 30px 20px; 
     text-align:left;
     font-size: 15px;   
 }
-.address a{
+.address a,p{
     color: black;
 }
-
-.map{
-
-    width: 100%;
-  
+.fas-fa{
+    font-size: 40px;
 }
-.section2 h2{
+.map{
+    
+    width:80%;
+    margin:50px 0 30px 10px;
+
+   
+}
+.address h2{
     color: gray;;
     text-align:left;
     font-size: 30px;
@@ -354,7 +408,6 @@ text-align: right;
     width: 50%;
     padding: 8px;
     margin:8px;
-    
     border-radius:5px;
     height:20%;
     font-size: 16px;
@@ -377,7 +430,6 @@ text-align: right;
 }
 footer.contactfooter{
     color: white;
-    text-align: left;
     background:rgb(107, 100, 86);
     padding:10px;
     font-family: 'Poiret One', cursive;
@@ -386,8 +438,10 @@ footer.contactfooter{
     display: flex;
     margin:10px;
     border-radius: 5px;
-    width: 40%;
-    font-size: 16px; 
+    width: 35%;
+    height: 10%;;
+    font-size: 16px;
+    border: 2px soli rgb(107, 100, 86);; 
    
 }
 footer h3{
@@ -402,99 +456,139 @@ footer input[type="submit"] {
     border:2px solid white;
     border-radius: 5px;
     color: white;
-    padding: 4px;
-    padding-left: 55px;
-    font-size: 14px;   
+    font-size: 14px;     
 }
 .GIT input[type="submit"] {
-    padding: 8px;
+  
     background:rgb(107, 100, 86);
     border:2px solid white;
     border-radius: 5px;
     color: white;
-    padding-left: 55px;
     font-size: 14px;   
 }
 .icons{
     margin-top: 5%;
     position: absolute;
-    margin-left: 45%;
+    margin-left: 40%;
+    font-size: 25px;
+}
+.icons i{
     color: white;
-    font-size: 30px;
 }
 .star1{
     margin: 20px;
 }
+
 /*-- contact --*/
 .body{
     background: #f6f6f7;
-    
 }
-#room{
-    height: 100%;
-    width: 100%;
+.sectionnn{
+    margin-top: 16%;
+}
+.title1{
+    padding-top: 5%; 
+    font-size: 30px;
+    text-align: center;
+ }
+.title2{
+   margin-top: 20px; 
+   font-size: 30px;
+   text-align: center;
+}
+.button1{
+    overflow: visible;
+    height: 50px;
+    width: 80%;
+    border: 2px solid rgb(107, 100, 86);;
+    border-radius:4px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(107, 100, 86);
+    text-align: center;
+    margin-top: 30px;
+
+    font-family: 'Poiret One', cursive;
 }
 
-.class1{
-
     
+
+.flex3{
     margin-top: 10%;
     display: flex;
 
 }
 .sectionRoom{
-    display:flex;
-    width: 100%;  height: 450px;  
-   margin-top: 16%;
-    overflow: hidden;
-    column-count:2;    
+    margin-top: 5%;
+    display: flex;
+    width: 100%;  height:500px;
+    color: gray;    
 }
 .imgR{
-    margin-right: 45%;
     height: 100%;
-    width:60%;
+  width: 40%;
     overflow: hidden;
        
 }
 
-#pRoom{
-  margin: 0;
-    font-size:0.8em;
+#divP{
+    color: #88837b; font-weight: lighter;
+    font-size:0.7em;
+    width: 60%;
     height: 100%;
-    width:60%;
     background: white;
    
 }
+.paragraph h2{
+    text-align:left;
+    margin-bottom: 20px;
+}
+.paragraph{
+    margin:20px 130px 60px 70px ;
+    width: 60%;
+    text-align: left;
+    align-items: left;
 
+
+}
 #pButton{
-   
     margin-bottom:10px;
+     
+}
 
-    min-width: 33%;    
-}
-.button2{
-    
-    border: 2px solid black;
-    border-radius:4px;
-    background: #f6f6f7;
-    text-align: center;
-    margin:0 auto;
-    font-size: 20px;
-    padding:10px 30px;
-    font-family: 'Poiret One', cursive;
-}
 .sectionRoom2{
     display:flex;
-    width: 100%;  height: 450px;  
-    margin-left: 0px;
+    width: 100%;  height: 500px;  
     overflow: hidden;
-    background: #f6f6f7;
     column-count:2;    
 }
-.sectionRoom3{
-    margin-top: 10%;
+.flex4{
+ 
     display: flex;
-    width: 100%;  height: 450px;
+
+}
+#divP2{
+    font-size:0.7em;
+    width: 60%;
+    height: 80%;
+    margin-top: 5%;
+    background: white;
+    color: #88837b; font-weight: lighter;
+}
+.paragraph2{
+    margin:20px 80px 60px 130px ;
+    width: 60%;
+    text-align: left;
+}
+.paragraph2 h2{
+    text-align:left;
+    margin-bottom: 20px;
+}
+.sectionRoom3{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;  height:500px;
     color: gray;     
 }
 .sectionRoom3 div{
@@ -509,16 +603,27 @@ footer input[type="submit"] {
 .sectionRoom3 div img{
     width: 100%;  height:50%;
 }
+.sectionRoom3 div h3{
+font-size: 20px;
+}
+.sectionRoom3 div p{
+    font-size: 15px;
+     font-weight: lighter;
+     font-family: 'Poiret One', cursive;}
+    
 .button3{
-  position: absolute;
-  margin-left: 28%;
-  top:1498px;
-    border: 2px solid black;
+    font-weight:bold;
+    color: rgb(107, 100, 86);
+  position: relative;
+  margin-left: 40%;
+margin-bottom: 5%;
+    border: 2px solid rgb(107, 100, 86);
     border-radius:4px;
-    background: #f6f6f7;
+    background:white;
     text-align: center;
     font-size: 20px;
     padding:8px 40px;
+    
     font-family: 'Poiret One', cursive;
 }
 footer.roomsFooter{
@@ -532,9 +637,10 @@ footer.roomsFooter{
     display: flex;
     margin:10px;
     border-radius: 5px;
-    width: 40%;
+    width: 35%;
+    height: 15%;
     font-size: 16px; 
-   
+    border: 2px solid rgb(107, 100, 86);
 }
 footer h3{
     font-family: 'Poiret One', cursive;
