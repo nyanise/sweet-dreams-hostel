@@ -78,11 +78,11 @@ header.home{
     position: absolute;
     background-color:white;
     left:56%;
-    top: 44%;
+    top: 40%;
     border-radius:4px;
     border-width: 2px;
     border-style:none;
-  
+    font-family: "Trebuchet MS", Arial, sans-serif;
    border: 1px solid gray; 
 }   
 
@@ -92,12 +92,12 @@ margin-left: 63px;
 
 
 .lable{
-    font-size: 9px;
+    font-size: 12px;
    font-style: black;
     text-decoration: none;
     font-weight: lighter;
     color: black;
-    font-family: 'Poiret One', cursive;
+  
 }
 .r2{
     width: 33%;
@@ -122,13 +122,12 @@ margin-left: 63px;
 
 .visitor{
     font-weight: lighter;
-    font-family: 'Poiret One', cursive;
-    border: 1px solid gray;
+    border: 1px solid black;
    width: 13%;
     color:black; 
     text-decoration: none; 
-    font-size: 15px ;
-    padding-left: 5px;
+    font-size: 17px ;
+    padding-left: 6px;
     border-radius: 2px; 
 margin-left: 44px;
     text-align: center;  
@@ -144,7 +143,8 @@ margin-left: 44px;
     text-align: center;
     background: white;
     border-radius: 3px;
-    border: 2px solid black;
+    color: black;
+    border: 2px solid darkgray;
 }
 .flex{
     display:flex;
@@ -161,7 +161,7 @@ font-size: 100%;
     text-decoration: none;
     border-radius: 2px;  
     font-weight: lighter;
-    font-family: 'Poiret One', cursive;
+  
 }
 
 .service{
@@ -648,6 +648,7 @@ footer.roomsFooter{
     background:rgb(107, 100, 86);
     padding:10px;
     font-family: 'Poiret One', cursive;
+    max-width: 100%;
 }
 .roomsFooter input{
     display: flex;
@@ -678,19 +679,33 @@ footer input[type="submit"] {
     display: none;
 }
 /*room*/
-@media only screen and (max-width: 1108px) {
-
+@media only screen and (max-width: 1076px) {
+body{
+    width: 100%;
+}
     .wrapper {
       width: 65%;
     }
     #navbar nav a {
         font-size: 0.9em;
       }
-    
-      
         #navbar nav a.menu-icon {
             display: none;
         }
+        #rightText{
+            width: 40%;
+           
+           font-size: 0.7em;
+           overflow: visible;
+           
+        }
+        .icons{
+            margin-top: 5%;
+            position: absolute;
+            margin-left: 38%;
+            font-size: 25px;
+        }
+
 }
 /*tablet*/
 @media only screen and (max-width: 900px) {
@@ -805,7 +820,39 @@ footer input[type="submit"] {
     } 
 
   }
-  
+  @media only screen and (max-width: 996px) {
+    #rightText{
+        width: 50%;
+       font-size: 0.7em;
+       overflow: visible;
+    }
+    .icons{
+        margin-top: 5%;
+        position: absolute;
+        margin-left: 36%;
+        font-size: 25px;
+    }
+
+
+  }
+  #form{
+    width: 26%;
+    height: 66%;}
+  @media only screen and (max-width: 896px) {
+    #rightText{
+        width: 50%;
+       font-size: 0.7em;
+       overflow: visible;
+    }
+    .icons{
+        margin-top: 5%;
+        position: absolute;
+        margin-left: 36%;
+        font-size: 25px;
+    }
+
+
+  }
   @media only screen and (max-width: 700px) {
     #navbar nav a {
         display: none;
@@ -813,8 +860,8 @@ footer input[type="submit"] {
     
       #navbar nav a.menu-icon {
         display: block;
-         margin-left: 65%;
-         margin-top:-30px;
+         margin-left: 64%;
+         margin-top:-20px;
         width: auto;
         font-size: 2em;
        
@@ -822,7 +869,7 @@ footer input[type="submit"] {
       .wrapper{
         width:65%;
     }
-    .mapDiv,.col-1,.col-2,.address,.guests,.flex2{
+    .mapDiv,.col-1,.col-2,.address,.guests,.flex2,.sectionRoom,.sectionRoom2,.flex4,.sectionRoom3{
         display: flex;
         flex-direction: column;
         align-items:center;
@@ -889,7 +936,7 @@ footer input[type="submit"] {
        margin-top: 20px;
         font-size:0.8em; 
         height: 100%;
-        width: 80%;
+        width: 70%;
         word-spacing: 0.5em;
        
     }
@@ -1011,5 +1058,72 @@ align-content: center;
         .star1{
             margin: 24px;
         }
+        .guestsSection,.flex2,.flex4{
+            height: 1000px;
+        }
+        .imgR{
+            height: 60%;
+          width:100%;
+            overflow: hidden;
+               
+        }
+           
+
+        #divP{
+            width: 100%;
+            height: 50%;
+            
+           
+        }
+        .button1{
+            margin: 0 auto;
+            height: 40px;
+            width: 70%;
+            font-size: 13px;
+            text-align: center;
+            margin-top: 30px;
+            margin-left: 30px;
+            padding: 10px
+        }
+        #divP2{
+     margin-top: 0;
+    width: 90%;
+    height: 50%;
+    font-size:0.8em;
+} 
+.sectionRoom3{
+    height: 1000px;
+    margin-bottom: 60px;
+}
+.sectionRoom3 div{
+    width: 70%;  height:50%;
+    margin: 15px;
+  
+}
+.button3{
+  margin-left: 28%;
+}
+footer.roomsFooter{
+    align-content: center;
+    padding:20px;;
+}
+footer.roomsFooter input{
+    align-content: center;
+   margin-left: 80px;
+    font-size: 16px;
+    width:60%;  
+    border-radius: 6px; 
+    height: 40px;
+}
+.icons{
+    padding-top: 155px;
+    padding-left: 75px;
+    margin:50px auto;
+   
+}
+
+footer h3{
+    text-align:center;
+}
 
     }
